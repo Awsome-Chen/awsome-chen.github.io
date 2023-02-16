@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+  <header>
+    <h1>高数救命公式</h1>
+    
+  </header>
+</head>
+<body>
+  <section>
+    <article>
+      <p>吃水不忘挖井人。</p>
+    </article>
+    <section id="markdown_area">
+      
+
+<h1>反三角函数</h1>
+
+$$
+d\,\frac{\arctan\left(x\right)}{d\,x}=\frac{1}{1+x^{2}}
+$$
+$$
+d\,\frac{\arccos\left(x\right)}{d\,x}=\frac{-1}{\sqrt{1-x^{2}}}
+$$
+
+$$
+d\,\frac{\arcsin\left(x\right)}{d\,x}=\frac{1}{\sqrt{1-x^{2}}}
+$$
+
+$$
+d\,\frac{\operatorname{arccot}\left(x\right)}{d\,x}=\frac{-1}{1+x^{2}}
+$$
+
+<h1>三角函数</h1>
+
+$$
+d\,\frac{\tan\left(x\right)}{d\,x}=\sec^{2}\left(x\right)=\frac{1}{\cos^{2}\left(x\right)}
+$$
+
+$$
+\frac{1}{\sin^{2}\left(x\right)}=1+\cot^{2}\left(x\right)
+$$
+
+
+$$
+d\,\frac{\cot\left(x\right)}{d\,x}=\frac{-1}{\sin^{2}\left(x\right)}
+$$
+
+$$
+\tan^{2}\left(x\right)=\sec^{2}\left(x\right)-1
+$$
+
+$$
+\csc\left(x\right)=\frac{1}{\sin\left(x\right)}
+$$
+
+$$
+\sec\left(x\right)=\frac{1}{\cos\left(x\right)}
+$$
+
+$$
+d\,\frac{\sec\left(x\right)}{d\,x}=\sec\left(x\right)\,\tan\left(x\right)
+$$
+
+<h1>等价无穷小</h1>
+
+当x->0时：
+
+$\sin\left(x\right)$~$x$  
+<br>
+
+$\tan\left(x\right)$~$x$  
+<br>
+
+$\arcsin\left(x\right)$~$x$ 
+<br>
+
+$\arctan\left(x\right)$~$x$
+<br>
+
+$1-\cos\left(x\right)$~$\frac{1}{2}\,x^{2}$
+<br>
+
+$\ln\left(1+x\right)$~$x$
+<br>
+
+$e^{x}-1$~$x$
+
+<h1>不定积分</h1>
+
+$$
+\int{\tan\left(x\right)}{\;\mathrm{d}x}=-\ln\left(\left| \cos\left(x\right)\right|\right)
+$$
+
+$$
+\int{\frac{1}{1-x^2}}=\frac{1}{2}\,\ln\left(\left| \frac{x+1}{x-1}\right|\right)
+$$
+
+$$
+\int{\frac{1}{x^{2}+a^{2}}}{\;\mathrm{d}x}=\frac{1}{a}\,\arctan\left(\frac{x}{a}\right)+c
+$$
+
+$$
+\int{\frac{1}{x^{2}-a^{2}}}{\;\mathrm{d}x}=\frac{1}{2\,a}\,\ln\left(\left| \frac{x-a}{x+a}\right|\right)+c
+$$
+
+$$
+\int{\frac{1}{\sqrt{a^{2}-x^{2}}}}{\;\mathrm{d}x}=\arcsin\left(\frac{x}{a}\right)+c
+$$
+
+<h1>定积分</h1>
+
+$$
+(\int^{\phi(x)}_{\psi(x)}f(t)dt)^{'}=f(\phi(x))\phi^{'}(x)-f(\psi(x))\psi^{'}(x)
+$$
+
+<h1>分部积分法</h1>
+
+$$
+\int_{a}^{b}udv=uv|^{b}_{a}-\int^{b}_{a}vdu
+$$
+
+<h1>弧长公式</h1>
+
+$$
+\int_{b}^{a}\sqrt{1+(y^{'})^{2}}dx
+$$
+
+<h1>曲率公式</h1>
+
+$$
+k = \frac{|y^{''}|}{[1+(y^{'})^2]^{\frac{3}{2}}}
+$$
+    </section>
+  </section>
+  
+</body>
+</html>
